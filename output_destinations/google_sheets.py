@@ -22,7 +22,7 @@ class GoogleSheetWriter:
         ]
         self.sheet.append_row(row)
 if __name__ == "__main__":
-    sheet_url = "https://docs.google.com/spreadsheets/d/1zplggzU2igMKks7s9zLly0kXDMrElzk92rIdj6e71_U/edit?gid=0#gid=0"
+    sheet_url = "YOUR_GOOGLE_SHEET_URL_HERE"
     test_data = {
         "date": "2025-07-24 14:00",
         "type": "Expense",
